@@ -32,7 +32,7 @@ class testTesting(unittest.TestCase):
         self.age = 5
     
     def test_addition(self):
-        self.assertEqual(self.age,5)
+        self.assertEqual(self.age,6)
 
 if __name__ == '__main__':
     unittest.main()
